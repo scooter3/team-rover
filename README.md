@@ -6,4 +6,4 @@ The various services can be scheduled as cron jobs or Windows scheduled tasks. S
 
 If you choose to use any components from this project, you are held liable for the data and how you use it.
 
-Note: You'll find code for the NBA and NHL in there as well, but they are not complete or functional. I'm working on expanding this project to work with the four major sports in the US.
+Note: You'll find code for the NBA and NFL in there as well, but they are not complete or functional. I'm working on expanding this project to work with the four major sports in the US.
