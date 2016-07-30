@@ -5,3 +5,5 @@ The site's data is updated daily using various services written in Java and pack
 The various services can be scheduled as cron jobs or Windows scheduled tasks. Since I didn't have a server set up, I just scheduled the jar files to run twice a day. The service would scrape the data, save them as JSON files, upload them to my site's FTP server, and email me a summary of the results (success/failure and how long it took).
 
 If you choose to use any components from this project, you are held liable for the data and how you use it.
+
+Note: You'll find code for the NBA and NHL in there as well, but they are not complete or functional. I'm working on expanding this project to work with the four major sports in the US.
