@@ -2,6 +2,8 @@ This project started off as a simple front-end, single-page site to show if the 
 
 The site's data is updated daily using various services written in Java and packaged with Maven. It scrapes data from hockey-reference.com and nhl.com. Note that this was a personal project with no commercial aspect to it and all data obtained from the sites were for personal use.
 
+I also created a service that calls SeatGeek's API to provide links for tickets to every game. This only needs to be run once when the schedules are generated because they do not change throughout the season. I only included this as a proof of concept and because SeatGeek's API is readily available and easy to use. Obviously, I wasn't going to launch this for public use because selling tickets means this would be a commercial site and I would need to get permission to use the data.
+
 The various services can be scheduled as cron jobs or Windows scheduled tasks. Since I didn't have a server set up, I just scheduled the jar files to run twice a day. The service would scrape the data, save them as JSON files, upload them to my site's FTP server, and email me a summary of the results (success/failure and how long it took).
 
 If you choose to use any components from this project, you are held liable for the data and how you use it.
