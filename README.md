@@ -7,3 +7,5 @@ The various services can be scheduled as cron jobs or Windows scheduled tasks. S
 If you choose to use any components from this project, you are held liable for the data and how you use it.
 
 Note: You'll find code for the NBA and NFL in there as well, but they are not complete or functional. I'm working on expanding this project to work with the four major sports in the US.
+
+populatePage.js is used on the front-end to render each team's page. I have not included the main AngularJS file or other web assets. Most of the logic for driving the front-end can be found in populatPage.js. To get the page to fully render, you must create your own index.html and AngularJS app file.
